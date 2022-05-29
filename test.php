@@ -27,6 +27,13 @@
 				<th>Rating</th> 
 			</tr>";
 	
+	// for($i=0; $i<count($movies); $i++){
+	// 	echo "<tr>";
+	// 	echo "<td>".$movies[$i]["name"]."</td>";
+	// 	echo "<td>".$movies[$i]["rating"]."</td>";
+	// 	echo "</tr>";
+	// }
+
 	foreach($movies as $movie){
 		echo "<tr>";
 		echo "<td>".$movie["name"]."</td>";
